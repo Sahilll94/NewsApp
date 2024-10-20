@@ -35,7 +35,7 @@ const NewsBoard = ({ category }) => {
       </h2>
 
       {loading && <p className="text-center">Loading news...</p>} {/* Loading state */}
-      {error && <p className="text-center text-danger">Failed to load news: {error}</p>} {/* Error handling */}
+      {error && <p className="text-center text-danger">Failed to load news as We did not have The Companies premium Plan which gives us allowance to fetch the news in the production mode.</p>} {/* Error handling */}
 
       {!loading && !error && (
         <div className='d-flex flex-wrap justify-content-center'>
